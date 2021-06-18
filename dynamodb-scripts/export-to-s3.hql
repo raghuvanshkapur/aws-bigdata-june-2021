@@ -1,2 +1,2 @@
-INSERT OVERWRITE DIRECTORY 's3://optum-emr-lesson/demo/output-data' SELECT * 
+INSERT OVERWRITE DIRECTORY 's3://optum-emr-lesson-rgv/demo/output-data' SELECT * 
 FROM demotable;

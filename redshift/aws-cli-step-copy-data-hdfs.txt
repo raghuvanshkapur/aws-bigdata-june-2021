@@ -1,2 +1,2 @@
-aws emr add-steps --cluster-id %CLUSTER_ID% --steps file:///home/ec2-user/copy.json  --region us-east-1
+aws emr add-steps --cluster-id j-3LWYMI1GVECG4 --steps file:///home/hadoop/copy-step.json  --region us-east-1
 hadoop fs -ls hdfs:///output

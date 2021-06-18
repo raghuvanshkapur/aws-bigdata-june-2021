@@ -1,0 +1,9 @@
+[
+    {
+        "Name":"CopyS3 venue step",
+        "Args":["s3-dist-cp","--s3Endpoint=s3.amazonaws.com","--src=s3://rgv-awssampledbuswest2/redshift/","--dest=hdfs:///output"],
+        "ActionOnFailure":"CONTINUE",
+        "Type":"CUSTOM_JAR",
+        "Jar":"command-runner.jar"
+    }
+]
